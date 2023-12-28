@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#board{
+    background:linear-gradient(rgb(207, 17, 3),rgb(5, 4, 4));
+    width: 90vmin;
+    height: 92vmin;
+    border: 2px solid wheat;
+    display: grid;
+    grid-template-rows: repeat(18,1fr);
+    grid-template-columns: repeat(18,1fr);
+}
+.head{
+    background:linear-gradient(rgba(228, 87, 5, 0.377),rgb(103, 196, 16)) ;
+    border-radius: 6px ;
+    border: 1px solid;
+
+}
+.snake{
+    background:linear-gradient(rgb(24, 148, 33),rgb(10, 84, 87)) ;
+    border-radius: 8px ; 
+    border: .5px solid;
+
+}
+.food{
+    background:linear-gradient(rgb(187, 21, 21),rgb(26, 37, 192)) ;
+    border-radius: 10px ;
+    border: .5px solid;
+
+}
